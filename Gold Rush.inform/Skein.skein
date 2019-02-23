@@ -9,14 +9,93 @@
 
 Gold Rush
 An Interactive Fiction by gbricker19
-Release 1 / Serial number 190220 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 190222 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
-Main Shaft
+Lower Shaft
+You can see the Minecart (empty) and a Gas Can (empty) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1135"></child>
+            <child nodeId="node-1141"></child>
         </children>
+    </item>
+    <item nodeId="node-1141">
+        <command xml:space="preserve">get in minecart</command>
+        <result xml:space="preserve">You get into the Minecart.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1149"></child>
+            <child nodeId="node-1142"></child>
+            <child nodeId="node-1146"></child>
+        </children>
+    </item>
+    <item nodeId="node-1146">
+        <command xml:space="preserve">switch on minecart</command>
+        <result xml:space="preserve">That isn't available.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1147"></child>
+        </children>
+    </item>
+    <item nodeId="node-1147">
+        <command xml:space="preserve">turn on minecart</command>
+        <result xml:space="preserve">That isn't available.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1142">
+        <command xml:space="preserve">start minecart</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1143"></child>
+        </children>
+    </item>
+    <item nodeId="node-1143">
+        <command xml:space="preserve">switch on minecart</command>
+        <result xml:space="preserve">It isn't something you can switch.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1144"></child>
+        </children>
+    </item>
+    <item nodeId="node-1144">
+        <command xml:space="preserve">switch on car</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1149">
+        <command xml:space="preserve">ignite minecart</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1150"></child>
+        </children>
+    </item>
+    <item nodeId="node-1150">
+        <command xml:space="preserve">start minecart</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1151"></child>
+        </children>
+    </item>
+    <item nodeId="node-1151">
+        <command xml:space="preserve">turn on minecart</command>
+        <result xml:space="preserve">You switch the ignition on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1135">
         <command xml:space="preserve">e</command>
