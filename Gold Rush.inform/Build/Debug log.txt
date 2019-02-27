@@ -14,7 +14,7 @@ Reading language definition from </Volumes/Inform/Inform.app/Contents/Resources/
 Phase I ... Lexical analysis
 -----------------------------------------------------
 
-I've now read your source text, which is 191 words long.
+I've now read your source text, which is 437 words long.
 
 
 -----------------------------------------------------
@@ -107,24 +107,6 @@ Phase XII ... Code generation
 
 ==== Phase XII.6 ... Compiling first block of phrases ====
 
-                    (5.a) problem message:
-                    found: UNKNOWN_VNT'first noun=empty'
-                    expected: nothingProblem PM_Unknown issued from inform7/Chapter 20/Dash.w, line 2896
-
-                      >--> In the sentence 'If the first noun=empty' (source text, line 31), I was
-                        expecting to read a condition, but instead found some text that I couldn't
-                        understand - 'first noun=empty'.
-
-[0356] gross "if ( c - condition ) begin" (UNKNOWN_VNT'first noun=empty')
-
-    I was trying to match this phrase:
-
-
-      if (first noun=empty - a condition): 
-
-
-    But I didn't recognise 'first noun=empty'.
-
 
 
 ==== Phase XII.7 ... Compiling the rulebooks ====
@@ -147,12 +129,53 @@ Phase XII ... Code generation
 
 
 
+==== Phase XII.12 ... Compiling GPR tokens for parsing various kinds of value ====
+
+
+
+==== Phase XII.13 ... Compiling second block of phrases ====
+
+
+
+==== Phase XII.14 ... Compiling noun and scope filter tokens ====
+
+
+
+==== Phase XII.15 ... Compiling chronology ====
+
+
+
+==== Phase XII.16 ... Compiling I6 Verb directives ====
+
+
+
+==== Phase XII.17 ... Slashing grammar (G1) ====
+
+
+
+==== Phase XII.18 ... Determining grammar (G2) ====
+
+
+
+==== Phase XII.19 ... Sorting and compiling non-value grammar (G3, G4) ====
+
+
+
+==== Phase XII.20 ... Compiling noun and scope filter tokens ====
+
+
+
+==== Phase XII.21 ... Compiling routines from predicate calculus ====
+
+Providing for a total heap of 8192, given requirement of 8192
+
+
 -----------------------------------------------------
 Phase XIII ... Compilation now complete
 -----------------------------------------------------
 
-Total of 4 files written as streams.
-CPU time: 139 centiseconds
+Total of 103 files written as streams.
+CPU time: 254 centiseconds
 
 
 That concludes the debugging log from this run of Inform.
