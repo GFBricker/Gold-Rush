@@ -1,7 +1,7 @@
 "Gold Rush" by gbricker19
 
 When play begins:
-	say "You are exploring an abandoned mine in search of lost treasures, when you here a low rumbling sound then everything around you starts to shake. Rocks fall from the ceiling and many of the tunnels aoround you start to collapse. YOu should probably try to get out of here"
+	say "You are exploring an abandoned mine in search of lost treasures, when you here a low rumbling sound then everything around you starts to shake. Rocks fall from the ceiling and many of the tunnels aoround you start to collapse. You should probably try to get out of here"
 
 [Rooms]
 
@@ -13,6 +13,8 @@ Locker Room is west of Main Shaft. The description of Locker Room is "The old ro
 
 Earth is a room has a door. The description of Earth is "The outside. Freedom!"
 
+
+[so i can move items to player inventory]
 Junk is a room.
 
 An every turn rule:
@@ -24,6 +26,7 @@ An every turn rule:
 
 In Lower Shaft is a vehicle called the Minecart. the description of minecart is "A heavy old minecart attached to a winch, maybe I could get out of here in this.".
 
+[so gas can be poured from gas can to fuel tank]
 Pouring it into is an action applying to two things.
 
 Understand "pour [something] in/into/on/onto [something]" as pouring it into.
@@ -36,11 +39,11 @@ Check pouring it into:
 
 The Gas Can is in lower shaft. Gas Can can be full or empty. Gas Can is full. the description is "[if gas can is full] A red gas can that is suprisingly full with fuel, maybe someone was down here more recently. [otherwise] An empty Gas Can, no use for it now".
 
-The Fuel tank is in lower shaft. it is not portable. The Fuel tank can be full or empty. The fuel tank is empty. The description of Fuel tank is "[if the Fuel tank is empty] The fuel tank has no gas in it. [otherwise] The fuel tank is full, you should try turning on the winch.".
+The Fuel tank is in lower shaft. it is not portable. The Fuel tank can be full or empty. The fuel tank is empty. The description of Fuel tank is "[if the Fuel tank is empty] The fuel tank has no gas in it. [otherwise] The fuel tank is full, you should try [bold type]turn[roman type]ing [bold type]on[roman type] the winch.".
 
 Instead of pouring Gas Can into Fuel tank:
 	If player is not carrying Gas Can:
-		say "You can't pour something you're not hollding";
+		say "You can't pour something you're not holding";
 	Otherwise:
 		now Fuel Tank is full;
 		say "The fuel tank is filled".
@@ -50,12 +53,14 @@ Cavern is scenery in Lower shaft. The description is "A wide open cavern with st
 filling it with is an action applying to two things.
 
 Understand "fill [something] with [something]" as filling it with.
-		
+
+[alternate verbage coverup]
 instead of filling fuel tank with gas can:
 	say "Try 'Pour' gas into tank'" 
 
 Winch is in Lower Shaft. it is not portable. Winch can be switched on or switched off. Winch is switched off. the description is "[if fuel tank is empty] An old winch that maybe could still run but the fuel tank seems to be empty.[end if] [if fuel tank is full and winch is switched off]Now that the fuel tank is full it might not be a bad idea to try and [bold type] turn [roman type] it on.[end if] [if winch is switched on] The winch is on and ready to pull the minecart up the shaft.[end if]".
 
+[to make sure you cannot just get in minecaart and leave room]
 instead of entering minecart:
 	if winch is switched on:
 		say "you get into the minecart";
@@ -68,6 +73,7 @@ instead of entering minecart:
 Instead of going to Main shaft from lower shaft when the player is not in minecart:
 	say "There is a pitch black empty cavern between the Lower and Main Shaft created by the earthquake, if you were to walk it would be certain death.".
 
+[So you can't go back to the lower shaft after making it to the main shaft]
 Instead of going to lower shaft from main shaft when the player is not in minecart:
 	say "There is a pitch black empty cavern between the Lower and Main Shaft created by the earthquake, if you were to walk it would be certain death.".
 
@@ -78,6 +84,7 @@ After going to Main shaft:
 	Now the fuel tank is empty;
 	continue the action.
 
+[because 'get out' wasn't working and neither was 'exit']
 Getting out of is an action applying to one thing. Understand "get out of [something]" as getting out of.
 
 Carry out getting out of something:
@@ -131,7 +138,8 @@ instead of mining Potassium:
 	otherwise:
 		move KNO3 to player;
 		say "You chip away at the Potassium Nitrate with the pickaxe and obtain a few chunks of it (now called KNO3)."
-		
+
+[needed to add S with C and C with S because it wont work otherwise]
 instead of Combining S with C:
 	if player is not carrying Mortar + Pestle:
 		say "It's hard to Combine these things without the proper tool";
@@ -168,8 +176,25 @@ instead of Combining KNO3 with Accelerant:
 		move KNO3 to junk;
 		say "You Combine the Accelerant and Oxidizer (KNO3) to creat Gunpowder!".
 		
+instead of combining C with KNO3:
+	say "nothing happens";
+	stop the action.
+
+instead of combining KNO3 with C:
+	say "nothing happens";
+	stop the action.
+
+instead of combining KNO3 with S:
+	say "nothing happens";
+	stop the action.
+
+instead of combining S with KNO3:
+	say "nothing happens";
+	stop the action.
+
 Rubble is south of Main Shaft and north of Earth. Rubble is a closed door. Rubble is Lockable and locked. Rubble is openable. The description of Rubble is "A large mound of rocks completely blocking the exit, maybe you could blow a hole in the rocks."
 
+[because rubble is a door need to make fail safes]
 instead of opening Rubble:
 	stop the action.
 	
@@ -193,15 +218,24 @@ instead of placing gunpowder on Rubble:
 	say "You place the Gunpowder on the rubble and light it, then run around the corner. A few seconds later you hear a loud BOOM and the pathway to outside has been cleared.";
 	Now Rubble is open.
 	
-
 [locker room]
 Lockers is scenery in locker room. the description is "Old Rusty lockers. One of them is slightly ajar and contains a pickaxe."
 
+[if they examine everything the puzzle becomes easier]
 poster board is scenery in locker room. the description is "How to Make Gunpowder: [bold type]Combine[roman type] Sulfur with Coal to create an Accelerant. Then [bold type]combine [roman type] with Potassium Nitrate to create gunpowder. Great for[bold type] place(ing)[roman type] on rocks to blow them up!"
 
+
+[because if this was allowed it would say 'first opening rubble']
 Instead of going to Earth from Main Shaft:
-	say "you can't find your way throught the rubble";
-	stop the action.
+	if rubble is open:
+		continue the action;
+	if rubble is closed:
+		say "you can't find your way throught the rubble";
+		stop the action.
 	
+[in case someone thought mining the rubble was the solution]
 instead of mining rubble:
-	say "You throw the pickaxe gainst the rocks with all your might but nothing seems to budge".
+	say "You throw the pickaxe against the rocks with all your might but nothing seems to budge".
+	
+instead of examining the player:
+	say "A 21 year old explorer with a flashlight"
