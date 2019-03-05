@@ -23,12 +23,15 @@ You can see the Minecart (empty), a Gas Can, a Fuel tank and Winch here.
             <child nodeId="node-1040"></child>
             <child nodeId="node-1061"></child>
             <child nodeId="node-1026"></child>
+            <child nodeId="node-1248"></child>
             <child nodeId="node-1020"></child>
             <child nodeId="node-1017"></child>
+            <child nodeId="node-1185"></child>
             <child nodeId="node-1011"></child>
             <child nodeId="node-1086"></child>
             <child nodeId="node-1008"></child>
             <child nodeId="node-1006"></child>
+            <child nodeId="node-1186"></child>
             <child nodeId="node-1003"></child>
         </children>
     </item>
@@ -53,6 +56,611 @@ You can see the Minecart (empty), a Gas Can, a Fuel tank and Winch here.
     <item nodeId="node-1005">
         <command xml:space="preserve">take gas</command>
         <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1186">
+        <command xml:space="preserve">x minecart</command>
+        <result xml:space="preserve">A heavy old minecart attached to a winch, maybe I could get out of here in this.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1187"></child>
+        </children>
+    </item>
+    <item nodeId="node-1187">
+        <command xml:space="preserve">x gas can</command>
+        <result xml:space="preserve"> A red gas can that is suprisingly full with fuel, maybe someone was down here more recently. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1188"></child>
+        </children>
+    </item>
+    <item nodeId="node-1188">
+        <command xml:space="preserve">x fuel tank</command>
+        <result xml:space="preserve"> The fuel tank has no gas in it. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1189"></child>
+        </children>
+    </item>
+    <item nodeId="node-1189">
+        <command xml:space="preserve">fill fuel tank with gas can</command>
+        <result xml:space="preserve">Try "Pour" gas into tank"
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1190"></child>
+        </children>
+    </item>
+    <item nodeId="node-1190">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1191"></child>
+        </children>
+    </item>
+    <item nodeId="node-1191">
+        <command xml:space="preserve">pur gas into tank</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1192"></child>
+        </children>
+    </item>
+    <item nodeId="node-1192">
+        <command xml:space="preserve">pour gas into tank</command>
+        <result xml:space="preserve">You can't pour something you're not holding
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1193"></child>
+        </children>
+    </item>
+    <item nodeId="node-1193">
+        <command xml:space="preserve">take gas can</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1194"></child>
+        </children>
+    </item>
+    <item nodeId="node-1194">
+        <command xml:space="preserve">pour gas into tank</command>
+        <result xml:space="preserve">The fuel tank is filled
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1195"></child>
+        </children>
+    </item>
+    <item nodeId="node-1195">
+        <command xml:space="preserve">x winch</command>
+        <result xml:space="preserve"> Now that the fuel tank is full it might not be a bad idea to try and  turn  it on. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1196"></child>
+        </children>
+    </item>
+    <item nodeId="node-1196">
+        <command xml:space="preserve">turn on winch</command>
+        <result xml:space="preserve">You switch Winch on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1197"></child>
+        </children>
+    </item>
+    <item nodeId="node-1197">
+        <command xml:space="preserve">get in cart</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1198"></child>
+        </children>
+    </item>
+    <item nodeId="node-1198">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1199"></child>
+        </children>
+    </item>
+    <item nodeId="node-1199">
+        <command xml:space="preserve">x cart</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1200"></child>
+        </children>
+    </item>
+    <item nodeId="node-1200">
+        <command xml:space="preserve">x minecart</command>
+        <result xml:space="preserve">A heavy old minecart attached to a winch, maybe I could get out of here in this.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1201"></child>
+        </children>
+    </item>
+    <item nodeId="node-1201">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">There is a pitch black empty cavern between the Lower and Main Shaft created by the earthquake, if you were to walk it would be certain death.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1202"></child>
+        </children>
+    </item>
+    <item nodeId="node-1202">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1203"></child>
+        </children>
+    </item>
+    <item nodeId="node-1203">
+        <command xml:space="preserve">get in minecart</command>
+        <result xml:space="preserve">you get into the minecart
+Lower Shaft (in the Minecart)
+The lower part of the mine where most of the valuble ores use to be. Mostly barren now with just a minecart attached to a winch and a gas can sitting next to it. The Main Shaft is to the west.
+
+You can see a Fuel tank and Winch here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1204"></child>
+        </children>
+    </item>
+    <item nodeId="node-1204">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">The winch slowly pulled you all the way to the main shaft, you should get out of the Mine cart and look for a way out.
+
+Main Shaft (in the Minecart)
+The main part of the shaft used for mining more common ores. To the east if the minecart rail, to the west is the old lockerooms, and to the south was where the exit used to be, but now it is blocked by a mound of rubble. Also in the room are three different sections of wall labeled Sulfur, Coal, and Potassium Nitrate.
+
+You can see Rubble here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1205"></child>
+        </children>
+    </item>
+    <item nodeId="node-1205">
+        <command xml:space="preserve">x rubble</command>
+        <result xml:space="preserve">A large mound of rocks completely blocking the exit, maybe you could blow a hole in the rocks.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1206"></child>
+        </children>
+    </item>
+    <item nodeId="node-1206">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Lower Shaft (in the Minecart)
+The lower part of the mine where most of the valuble ores use to be. Mostly barren now with just a minecart attached to a winch and a gas can sitting next to it. The Main Shaft is to the west.
+
+You can see a Fuel tank and Winch here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1207"></child>
+        </children>
+    </item>
+    <item nodeId="node-1207">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">The winch slowly pulled you all the way to the main shaft, you should get out of the Mine cart and look for a way out.
+
+Main Shaft (in the Minecart)
+The main part of the shaft used for mining more common ores. To the east if the minecart rail, to the west is the old lockerooms, and to the south was where the exit used to be, but now it is blocked by a mound of rubble. Also in the room are three different sections of wall labeled Sulfur, Coal, and Potassium Nitrate.
+
+You can see Rubble here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1208"></child>
+        </children>
+    </item>
+    <item nodeId="node-1208">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Locker Room (in the Minecart)
+The old room where the miners would store their belongings. lockers line the wall and a poster is hung on the wall. Also in the middle of room is a table with a mortar and pestle on it.
+
+You can see Mortar + Pestle here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1209"></child>
+        </children>
+    </item>
+    <item nodeId="node-1209">
+        <command xml:space="preserve">x mortar</command>
+        <result xml:space="preserve">a small mortar and pestle that could be used for  combining  to things together.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1210"></child>
+        </children>
+    </item>
+    <item nodeId="node-1210">
+        <command xml:space="preserve">take mortar</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1211"></child>
+        </children>
+    </item>
+    <item nodeId="node-1211">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">The winch slowly pulled you all the way to the main shaft, you should get out of the Mine cart and look for a way out.
+
+Main Shaft (in the Minecart)
+The main part of the shaft used for mining more common ores. To the east if the minecart rail, to the west is the old lockerooms, and to the south was where the exit used to be, but now it is blocked by a mound of rubble. Also in the room are three different sections of wall labeled Sulfur, Coal, and Potassium Nitrate.
+
+You can see Rubble here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1212"></child>
+        </children>
+    </item>
+    <item nodeId="node-1212">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">you can't find your way throught the rubble
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1213"></child>
+        </children>
+    </item>
+    <item nodeId="node-1213">
+        <command xml:space="preserve">x sulfur</command>
+        <result xml:space="preserve">A large part of the shaft is covered in a yellow rock that is labeled as sulfur
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1214"></child>
+        </children>
+    </item>
+    <item nodeId="node-1214">
+        <command xml:space="preserve">take sulfur</command>
+        <result xml:space="preserve">That's hardly portable.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1215"></child>
+        </children>
+    </item>
+    <item nodeId="node-1215">
+        <command xml:space="preserve">x coal</command>
+        <result xml:space="preserve">A large part of the shaft is covered in a black rock that is labeled as coal
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1216"></child>
+        </children>
+    </item>
+    <item nodeId="node-1216">
+        <command xml:space="preserve">x nitrate</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1217"></child>
+        </children>
+    </item>
+    <item nodeId="node-1217">
+        <command xml:space="preserve">x potassium nitrate</command>
+        <result xml:space="preserve">I only understood you as far as wanting to examine Potassium wall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1218"></child>
+        </children>
+    </item>
+    <item nodeId="node-1218">
+        <command xml:space="preserve">yes</command>
+        <result xml:space="preserve">That was a rhetorical question.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1219"></child>
+        </children>
+    </item>
+    <item nodeId="node-1219">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Locker Room (in the Minecart)
+The old room where the miners would store their belongings. lockers line the wall and a poster is hung on the wall. Also in the middle of room is a table with a mortar and pestle on it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1220"></child>
+        </children>
+    </item>
+    <item nodeId="node-1220">
+        <command xml:space="preserve">x lockers</command>
+        <result xml:space="preserve">Old Rusty lockers. One of them is slightly ajar and contains a pickaxe.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1221"></child>
+        </children>
+    </item>
+    <item nodeId="node-1221">
+        <command xml:space="preserve">open lockers</command>
+        <result xml:space="preserve">It isn't something you can open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1222"></child>
+        </children>
+    </item>
+    <item nodeId="node-1222">
+        <command xml:space="preserve">open rusty locker</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1223"></child>
+        </children>
+    </item>
+    <item nodeId="node-1223">
+        <command xml:space="preserve">take pickaxe</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1224"></child>
+        </children>
+    </item>
+    <item nodeId="node-1224">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">The winch slowly pulled you all the way to the main shaft, you should get out of the Mine cart and look for a way out.
+
+Main Shaft (in the Minecart)
+The main part of the shaft used for mining more common ores. To the east if the minecart rail, to the west is the old lockerooms, and to the south was where the exit used to be, but now it is blocked by a mound of rubble. Also in the room are three different sections of wall labeled Sulfur, Coal, and Potassium Nitrate.
+
+You can see Rubble here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1225"></child>
+        </children>
+    </item>
+    <item nodeId="node-1225">
+        <command xml:space="preserve">use pickaxe on sulfur</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1226"></child>
+        </children>
+    </item>
+    <item nodeId="node-1226">
+        <command xml:space="preserve">pickaxe sulfur</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1227"></child>
+        </children>
+    </item>
+    <item nodeId="node-1227">
+        <command xml:space="preserve">take sulfur with pickaxe</command>
+        <result xml:space="preserve">I only understood you as far as wanting to take Sulfur wall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1228"></child>
+        </children>
+    </item>
+    <item nodeId="node-1228">
+        <command xml:space="preserve">take sulfur wall</command>
+        <result xml:space="preserve">That's hardly portable.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1229"></child>
+        </children>
+    </item>
+    <item nodeId="node-1229">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Locker Room (in the Minecart)
+The old room where the miners would store their belongings. lockers line the wall and a poster is hung on the wall. Also in the middle of room is a table with a mortar and pestle on it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1230"></child>
+        </children>
+    </item>
+    <item nodeId="node-1230">
+        <command xml:space="preserve">x pickaxe</command>
+        <result xml:space="preserve">An old rusty pickaxe but it might be able to still mine some rock.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1231"></child>
+        </children>
+    </item>
+    <item nodeId="node-1231">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">The winch slowly pulled you all the way to the main shaft, you should get out of the Mine cart and look for a way out.
+
+Main Shaft (in the Minecart)
+The main part of the shaft used for mining more common ores. To the east if the minecart rail, to the west is the old lockerooms, and to the south was where the exit used to be, but now it is blocked by a mound of rubble. Also in the room are three different sections of wall labeled Sulfur, Coal, and Potassium Nitrate.
+
+You can see Rubble here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1232"></child>
+        </children>
+    </item>
+    <item nodeId="node-1232">
+        <command xml:space="preserve">mine sulfur</command>
+        <result xml:space="preserve">You chip away at the sulfur with the pickaxe and obtain a few chunks of it (now called S).
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1233"></child>
+        </children>
+    </item>
+    <item nodeId="node-1233">
+        <command xml:space="preserve">take S</command>
+        <result xml:space="preserve">(S)
+You already have that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1234"></child>
+        </children>
+    </item>
+    <item nodeId="node-1234">
+        <command xml:space="preserve">mine coal</command>
+        <result xml:space="preserve">You chip away at the Charcoal with the pickaxe and obtain a few chunks of it (now called C).
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1235"></child>
+        </children>
+    </item>
+    <item nodeId="node-1235">
+        <command xml:space="preserve">mine nitrate</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1236"></child>
+        </children>
+    </item>
+    <item nodeId="node-1236">
+        <command xml:space="preserve">mine potassium nitrate</command>
+        <result xml:space="preserve">I only understood you as far as wanting to mine Potassium wall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1237"></child>
+        </children>
+    </item>
+    <item nodeId="node-1237">
+        <command xml:space="preserve">mine pottassium</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1238"></child>
+        </children>
+    </item>
+    <item nodeId="node-1238">
+        <command xml:space="preserve">mine potassium</command>
+        <result xml:space="preserve">You chip away at the Potassium Nitrate with the pickaxe and obtain a few chunks of it (now called KNO3).
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1239"></child>
+        </children>
+    </item>
+    <item nodeId="node-1239">
+        <command xml:space="preserve">combine KNO3 with C</command>
+        <result xml:space="preserve">nothing happens
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1240"></child>
+        </children>
+    </item>
+    <item nodeId="node-1240">
+        <command xml:space="preserve">combine S with C</command>
+        <result xml:space="preserve">(S with C)
+You Combine the two rocks to create an Accelerant!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1241"></child>
+        </children>
+    </item>
+    <item nodeId="node-1241">
+        <command xml:space="preserve">combine Accelerant with KNO3</command>
+        <result xml:space="preserve">You Combine the Accelerant and Oxidizer (KNO3) to creat Gunpowder!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1242"></child>
+        </children>
+    </item>
+    <item nodeId="node-1242">
+        <command xml:space="preserve">use gunpowder on rubble</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1243"></child>
+        </children>
+    </item>
+    <item nodeId="node-1243">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Locker Room (in the Minecart)
+The old room where the miners would store their belongings. lockers line the wall and a poster is hung on the wall. Also in the middle of room is a table with a mortar and pestle on it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1244"></child>
+        </children>
+    </item>
+    <item nodeId="node-1244">
+        <command xml:space="preserve">x poster</command>
+        <result xml:space="preserve">How to Make Gunpowder: Combine Sulfur with Coal to create an Accelerant. Then combine  with Potassium Nitrate to create gunpowder. Great for place(ing) on rocks to blow them up!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1245"></child>
+        </children>
+    </item>
+    <item nodeId="node-1245">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">The winch slowly pulled you all the way to the main shaft, you should get out of the Mine cart and look for a way out.
+
+Main Shaft (in the Minecart)
+The main part of the shaft used for mining more common ores. To the east if the minecart rail, to the west is the old lockerooms, and to the south was where the exit used to be, but now it is blocked by a mound of rubble. Also in the room are three different sections of wall labeled Sulfur, Coal, and Potassium Nitrate.
+
+You can see Rubble here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1246"></child>
+        </children>
+    </item>
+    <item nodeId="node-1246">
+        <command xml:space="preserve">place gunpowder on rubble</command>
+        <result xml:space="preserve">You place the Gunpowder on the rubble and light it, then run around the corner. A few seconds later you hear a loud BOOM and the pathway to outside has been cleared.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1247"></child>
+        </children>
+    </item>
+    <item nodeId="node-1247">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Earth is a room (in the Minecart)
+The outside. Freedom!
+
+You can see Rubble here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -786,6 +1394,13 @@ You can see a Fuel tank and Winch here.
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-1185">
+        <command xml:space="preserve">purloin gunpowder</command>
+        <result xml:space="preserve">[Purloined.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1017">
         <command xml:space="preserve">pur gas can into uel tank</command>
         <result xml:space="preserve">That's not a verb I recognise.
@@ -858,6 +1473,38 @@ You can see a Fuel tank and Winch here.
         <result xml:space="preserve">You see nothing special about the Fuel tank.
 
 &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1248">
+        <command xml:space="preserve">hehe</command>
+        <result xml:space="preserve">Main Shaft
+The main part of the shaft used for mining more common ores. To the east if the minecart rail, to the west is the old lockerooms, and to the south was where the exit used to be, but now it is blocked by a mound of rubble. Also in the room are three different sections of wall labeled Sulfur, Coal, and Potassium Nitrate.
+
+You can see Rubble here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1249"></child>
+        </children>
+    </item>
+    <item nodeId="node-1249">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Earth
+The outside. Freedom!
+
+You can see Rubble here.
+
+you win
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1026">

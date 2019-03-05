@@ -11,10 +11,10 @@ Main Shaft is a room has door. The description of Main Shaft is "The main part o
 
 Locker Room is west of Main Shaft. The description of Locker Room is "The old room where the miners would store their belongings. lockers line the wall and a poster is hung on the wall. Also in the middle of room is a table with a mortar and pestle on it."
 
-Earth is a room has a door. The description of Earth is "The outside. Freedom!"
+Earth is a room. The description of Earth is "The outside. Freedom!"
 
 
-[so i can move items to player inventory]
+[so I can move items to player inventory]
 Junk is a room.
 
 An every turn rule:
@@ -118,6 +118,30 @@ Accelerant is in Junk. The description is "An ingredient in making gunpowder"
 
 Gunpowder is in junk. the description is "A great tool for blowing things up"
 
+[alternate vocabulary]
+Pickaxing is an action applying to one thing. Understand "pickaxe [something]" as Pickaxing.
+
+instead of pickaxing sulfur:
+	if player is not carrying pickaxe:
+		say "It would be hard to mine solid rock without the proper tool.";
+	otherwise:
+		move S to player;
+		say "You chip away at the sulfur with the pickaxe and obtain a few chunks of it (now called S).".
+
+instead of pickaxing Coal:
+	if player is not carrying pickaxe:
+		say "It would be hard to mine solid rock without the proper tool.";
+	otherwise:
+		move C to player;
+		say "You chip away at the Charcoal with the pickaxe and obtain a few chunks of it (now called C).".
+
+instead of pickaxing Potassium:
+	if player is not carrying pickaxe:
+		say "It would be hard to mine solid rock without the proper tool";
+	otherwise:
+		move KNO3 to player;
+		say "You chip away at the Potassium Nitrate with the pickaxe and obtain a few chunks of it (now called KNO3)."
+		
 instead of mining Sulfur:
 	if player is not carrying pickaxe:
 		say "It would be hard to mine solid rock without the proper tool.";
@@ -192,7 +216,7 @@ instead of combining S with KNO3:
 	say "nothing happens";
 	stop the action.
 
-Rubble is south of Main Shaft and north of Earth. Rubble is a closed door. Rubble is Lockable and locked. Rubble is openable. The description of Rubble is "A large mound of rocks completely blocking the exit, maybe you could blow a hole in the rocks."
+Rubble is south of Main Shaft and north of Earth. Rubble is a closed door. It is not described. Rubble is Lockable and locked. Rubble is openable. The description of Rubble is "A large mound of rocks completely blocking the exit, maybe you could blow a hole in the rocks."
 
 [because rubble is a door need to make fail safes]
 instead of opening Rubble:
@@ -239,3 +263,43 @@ instead of mining rubble:
 	
 instead of examining the player:
 	say "A 21 year old explorer with a flashlight"
+
+[to make sure end rule works]
+Understand "hehe" as flying. Flying is an action applying to nothing.
+instead of flying:
+	now rubble is open;
+	move player to main shaft.
+	
+[to test climbing puzzle]
+Understand "haha" as falling. falling is an action applying to nothing.
+instead of falling:
+	move player to main shaft.
+	
+[so minecart can't leave main shaft]
+instead of going to locker room from main shaft in minecart:
+	say "the tracks end in the Main Shaft, you might want to [bold type]get out of[roman type] the minecart before going naywhere else.".
+	
+instead of going to earth from main shaft in minecart:
+	say "the tracks end in the Main Shaft, you might want to [bold type]get out of[roman type] the minecart before going naywhere else.".
+	
+	
+[HOW TO WIN:
+
+take gas can
+pour gas can into fuel tank
+turn on winch
+get in minecart
+west
+west
+take mortar + pestle
+take pickaxe
+east
+mine sulfur
+mine coal
+mine potassium
+combine S with C
+combine accelerant with KNO3
+place gunpowder on rubble
+south 
+
+WIN!]
