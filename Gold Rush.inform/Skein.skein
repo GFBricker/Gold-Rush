@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 
-<Skein rootNode="node-1002">
+<Skein rootNode="node-1278">
     <generator>Inform Mac Client (Inform version 1.65/6.33/6M62)</generator>
-    <item nodeId="node-1002">
+    <item nodeId="node-1278">
         <command xml:space="preserve">Gold Rush</command>
         <result xml:space="preserve">
 
@@ -19,198 +19,198 @@ You can see the Minecart (empty), a Gas Can, a Fuel tank and Winch here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1053"></child>
-            <child nodeId="node-1040"></child>
-            <child nodeId="node-1061"></child>
-            <child nodeId="node-1026"></child>
-            <child nodeId="node-1248"></child>
-            <child nodeId="node-1020"></child>
-            <child nodeId="node-1017"></child>
-            <child nodeId="node-1185"></child>
-            <child nodeId="node-1011"></child>
-            <child nodeId="node-1086"></child>
-            <child nodeId="node-1008"></child>
-            <child nodeId="node-1006"></child>
-            <child nodeId="node-1186"></child>
-            <child nodeId="node-1003"></child>
+        <children><child nodeId="node-1514"></child>
+            <child nodeId="node-1470"></child>
+            <child nodeId="node-1445"></child>
+            <child nodeId="node-1431"></child>
+            <child nodeId="node-1429"></child>
+            <child nodeId="node-1423"></child>
+            <child nodeId="node-1420"></child>
+            <child nodeId="node-1419"></child>
+            <child nodeId="node-1413"></child>
+            <child nodeId="node-1400"></child>
+            <child nodeId="node-1346"></child>
+            <child nodeId="node-1344"></child>
+            <child nodeId="node-1282"></child>
+            <child nodeId="node-1279"></child>
         </children>
     </item>
-    <item nodeId="node-1003">
+    <item nodeId="node-1279">
         <command xml:space="preserve">x winch</command>
         <result xml:space="preserve">You see nothing special about Winch.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1004"></child>
+        <children><child nodeId="node-1280"></child>
         </children>
     </item>
-    <item nodeId="node-1004">
+    <item nodeId="node-1280">
         <command xml:space="preserve">x fuel tank</command>
         <result xml:space="preserve"> The fuel tank has no gas in it. 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1005"></child>
+        <children><child nodeId="node-1281"></child>
         </children>
     </item>
-    <item nodeId="node-1005">
+    <item nodeId="node-1281">
         <command xml:space="preserve">take gas</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1186">
+    <item nodeId="node-1282">
         <command xml:space="preserve">x minecart</command>
         <result xml:space="preserve">A heavy old minecart attached to a winch, maybe I could get out of here in this.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1187"></child>
+        <children><child nodeId="node-1283"></child>
         </children>
     </item>
-    <item nodeId="node-1187">
+    <item nodeId="node-1283">
         <command xml:space="preserve">x gas can</command>
         <result xml:space="preserve"> A red gas can that is suprisingly full with fuel, maybe someone was down here more recently. 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1188"></child>
+        <children><child nodeId="node-1284"></child>
         </children>
     </item>
-    <item nodeId="node-1188">
+    <item nodeId="node-1284">
         <command xml:space="preserve">x fuel tank</command>
         <result xml:space="preserve"> The fuel tank has no gas in it. 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1189"></child>
+        <children><child nodeId="node-1285"></child>
         </children>
     </item>
-    <item nodeId="node-1189">
+    <item nodeId="node-1285">
         <command xml:space="preserve">fill fuel tank with gas can</command>
         <result xml:space="preserve">Try "Pour" gas into tank"
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1190"></child>
+        <children><child nodeId="node-1286"></child>
         </children>
     </item>
-    <item nodeId="node-1190">
+    <item nodeId="node-1286">
         <command xml:space="preserve"></command>
         <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1191"></child>
+        <children><child nodeId="node-1287"></child>
         </children>
     </item>
-    <item nodeId="node-1191">
+    <item nodeId="node-1287">
         <command xml:space="preserve">pur gas into tank</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1192"></child>
+        <children><child nodeId="node-1288"></child>
         </children>
     </item>
-    <item nodeId="node-1192">
+    <item nodeId="node-1288">
         <command xml:space="preserve">pour gas into tank</command>
         <result xml:space="preserve">You can't pour something you're not holding
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1193"></child>
+        <children><child nodeId="node-1289"></child>
         </children>
     </item>
-    <item nodeId="node-1193">
+    <item nodeId="node-1289">
         <command xml:space="preserve">take gas can</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1194"></child>
+        <children><child nodeId="node-1290"></child>
         </children>
     </item>
-    <item nodeId="node-1194">
+    <item nodeId="node-1290">
         <command xml:space="preserve">pour gas into tank</command>
         <result xml:space="preserve">The fuel tank is filled
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1195"></child>
+        <children><child nodeId="node-1291"></child>
         </children>
     </item>
-    <item nodeId="node-1195">
+    <item nodeId="node-1291">
         <command xml:space="preserve">x winch</command>
         <result xml:space="preserve"> Now that the fuel tank is full it might not be a bad idea to try and  turn  it on. 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1196"></child>
+        <children><child nodeId="node-1292"></child>
         </children>
     </item>
-    <item nodeId="node-1196">
+    <item nodeId="node-1292">
         <command xml:space="preserve">turn on winch</command>
         <result xml:space="preserve">You switch Winch on.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1197"></child>
+        <children><child nodeId="node-1293"></child>
         </children>
     </item>
-    <item nodeId="node-1197">
+    <item nodeId="node-1293">
         <command xml:space="preserve">get in cart</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1198"></child>
+        <children><child nodeId="node-1294"></child>
         </children>
     </item>
-    <item nodeId="node-1198">
+    <item nodeId="node-1294">
         <command xml:space="preserve"></command>
         <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1199"></child>
+        <children><child nodeId="node-1295"></child>
         </children>
     </item>
-    <item nodeId="node-1199">
+    <item nodeId="node-1295">
         <command xml:space="preserve">x cart</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1200"></child>
+        <children><child nodeId="node-1296"></child>
         </children>
     </item>
-    <item nodeId="node-1200">
+    <item nodeId="node-1296">
         <command xml:space="preserve">x minecart</command>
         <result xml:space="preserve">A heavy old minecart attached to a winch, maybe I could get out of here in this.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1201"></child>
+        <children><child nodeId="node-1297"></child>
         </children>
     </item>
-    <item nodeId="node-1201">
+    <item nodeId="node-1297">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">There is a pitch black empty cavern between the Lower and Main Shaft created by the earthquake, if you were to walk it would be certain death.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1202"></child>
+        <children><child nodeId="node-1298"></child>
         </children>
     </item>
-    <item nodeId="node-1202">
+    <item nodeId="node-1298">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1203"></child>
+        <children><child nodeId="node-1299"></child>
         </children>
     </item>
-    <item nodeId="node-1203">
+    <item nodeId="node-1299">
         <command xml:space="preserve">get in minecart</command>
         <result xml:space="preserve">you get into the minecart
 Lower Shaft (in the Minecart)
@@ -220,10 +220,10 @@ You can see a Fuel tank and Winch here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1204"></child>
+        <children><child nodeId="node-1300"></child>
         </children>
     </item>
-    <item nodeId="node-1204">
+    <item nodeId="node-1300">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">The winch slowly pulled you all the way to the main shaft, you should get out of the Mine cart and look for a way out.
 
@@ -234,19 +234,19 @@ You can see Rubble here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1205"></child>
+        <children><child nodeId="node-1301"></child>
         </children>
     </item>
-    <item nodeId="node-1205">
+    <item nodeId="node-1301">
         <command xml:space="preserve">x rubble</command>
         <result xml:space="preserve">A large mound of rocks completely blocking the exit, maybe you could blow a hole in the rocks.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1206"></child>
+        <children><child nodeId="node-1302"></child>
         </children>
     </item>
-    <item nodeId="node-1206">
+    <item nodeId="node-1302">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Lower Shaft (in the Minecart)
@@ -256,10 +256,10 @@ You can see a Fuel tank and Winch here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1207"></child>
+        <children><child nodeId="node-1303"></child>
         </children>
     </item>
-    <item nodeId="node-1207">
+    <item nodeId="node-1303">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">The winch slowly pulled you all the way to the main shaft, you should get out of the Mine cart and look for a way out.
 
@@ -270,10 +270,10 @@ You can see Rubble here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1208"></child>
+        <children><child nodeId="node-1304"></child>
         </children>
     </item>
-    <item nodeId="node-1208">
+    <item nodeId="node-1304">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Locker Room (in the Minecart)
@@ -283,28 +283,28 @@ You can see Mortar + Pestle here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1209"></child>
+        <children><child nodeId="node-1305"></child>
         </children>
     </item>
-    <item nodeId="node-1209">
+    <item nodeId="node-1305">
         <command xml:space="preserve">x mortar</command>
         <result xml:space="preserve">a small mortar and pestle that could be used for  combining  to things together.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1210"></child>
+        <children><child nodeId="node-1306"></child>
         </children>
     </item>
-    <item nodeId="node-1210">
+    <item nodeId="node-1306">
         <command xml:space="preserve">take mortar</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1211"></child>
+        <children><child nodeId="node-1307"></child>
         </children>
     </item>
-    <item nodeId="node-1211">
+    <item nodeId="node-1307">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">The winch slowly pulled you all the way to the main shaft, you should get out of the Mine cart and look for a way out.
 
@@ -315,72 +315,72 @@ You can see Rubble here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1212"></child>
+        <children><child nodeId="node-1308"></child>
         </children>
     </item>
-    <item nodeId="node-1212">
+    <item nodeId="node-1308">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">you can't find your way throught the rubble
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1213"></child>
+        <children><child nodeId="node-1309"></child>
         </children>
     </item>
-    <item nodeId="node-1213">
+    <item nodeId="node-1309">
         <command xml:space="preserve">x sulfur</command>
         <result xml:space="preserve">A large part of the shaft is covered in a yellow rock that is labeled as sulfur
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1214"></child>
+        <children><child nodeId="node-1310"></child>
         </children>
     </item>
-    <item nodeId="node-1214">
+    <item nodeId="node-1310">
         <command xml:space="preserve">take sulfur</command>
         <result xml:space="preserve">That's hardly portable.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1215"></child>
+        <children><child nodeId="node-1311"></child>
         </children>
     </item>
-    <item nodeId="node-1215">
+    <item nodeId="node-1311">
         <command xml:space="preserve">x coal</command>
         <result xml:space="preserve">A large part of the shaft is covered in a black rock that is labeled as coal
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1216"></child>
+        <children><child nodeId="node-1312"></child>
         </children>
     </item>
-    <item nodeId="node-1216">
+    <item nodeId="node-1312">
         <command xml:space="preserve">x nitrate</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1217"></child>
+        <children><child nodeId="node-1313"></child>
         </children>
     </item>
-    <item nodeId="node-1217">
+    <item nodeId="node-1313">
         <command xml:space="preserve">x potassium nitrate</command>
         <result xml:space="preserve">I only understood you as far as wanting to examine Potassium wall.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1218"></child>
+        <children><child nodeId="node-1314"></child>
         </children>
     </item>
-    <item nodeId="node-1218">
+    <item nodeId="node-1314">
         <command xml:space="preserve">yes</command>
         <result xml:space="preserve">That was a rhetorical question.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1219"></child>
+        <children><child nodeId="node-1315"></child>
         </children>
     </item>
-    <item nodeId="node-1219">
+    <item nodeId="node-1315">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Locker Room (in the Minecart)
@@ -388,46 +388,46 @@ The old room where the miners would store their belongings. lockers line the wal
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1220"></child>
+        <children><child nodeId="node-1316"></child>
         </children>
     </item>
-    <item nodeId="node-1220">
+    <item nodeId="node-1316">
         <command xml:space="preserve">x lockers</command>
         <result xml:space="preserve">Old Rusty lockers. One of them is slightly ajar and contains a pickaxe.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1221"></child>
+        <children><child nodeId="node-1317"></child>
         </children>
     </item>
-    <item nodeId="node-1221">
+    <item nodeId="node-1317">
         <command xml:space="preserve">open lockers</command>
         <result xml:space="preserve">It isn't something you can open.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1222"></child>
+        <children><child nodeId="node-1318"></child>
         </children>
     </item>
-    <item nodeId="node-1222">
+    <item nodeId="node-1318">
         <command xml:space="preserve">open rusty locker</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1223"></child>
+        <children><child nodeId="node-1319"></child>
         </children>
     </item>
-    <item nodeId="node-1223">
+    <item nodeId="node-1319">
         <command xml:space="preserve">take pickaxe</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1224"></child>
+        <children><child nodeId="node-1320"></child>
         </children>
     </item>
-    <item nodeId="node-1224">
+    <item nodeId="node-1320">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">The winch slowly pulled you all the way to the main shaft, you should get out of the Mine cart and look for a way out.
 
@@ -438,46 +438,46 @@ You can see Rubble here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1225"></child>
+        <children><child nodeId="node-1321"></child>
         </children>
     </item>
-    <item nodeId="node-1225">
+    <item nodeId="node-1321">
         <command xml:space="preserve">use pickaxe on sulfur</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1226"></child>
+        <children><child nodeId="node-1322"></child>
         </children>
     </item>
-    <item nodeId="node-1226">
+    <item nodeId="node-1322">
         <command xml:space="preserve">pickaxe sulfur</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1227"></child>
+        <children><child nodeId="node-1323"></child>
         </children>
     </item>
-    <item nodeId="node-1227">
+    <item nodeId="node-1323">
         <command xml:space="preserve">take sulfur with pickaxe</command>
         <result xml:space="preserve">I only understood you as far as wanting to take Sulfur wall.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1228"></child>
+        <children><child nodeId="node-1324"></child>
         </children>
     </item>
-    <item nodeId="node-1228">
+    <item nodeId="node-1324">
         <command xml:space="preserve">take sulfur wall</command>
         <result xml:space="preserve">That's hardly portable.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1229"></child>
+        <children><child nodeId="node-1325"></child>
         </children>
     </item>
-    <item nodeId="node-1229">
+    <item nodeId="node-1325">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Locker Room (in the Minecart)
@@ -485,19 +485,19 @@ The old room where the miners would store their belongings. lockers line the wal
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1230"></child>
+        <children><child nodeId="node-1326"></child>
         </children>
     </item>
-    <item nodeId="node-1230">
+    <item nodeId="node-1326">
         <command xml:space="preserve">x pickaxe</command>
         <result xml:space="preserve">An old rusty pickaxe but it might be able to still mine some rock.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1231"></child>
+        <children><child nodeId="node-1327"></child>
         </children>
     </item>
-    <item nodeId="node-1231">
+    <item nodeId="node-1327">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">The winch slowly pulled you all the way to the main shaft, you should get out of the Mine cart and look for a way out.
 
@@ -508,110 +508,110 @@ You can see Rubble here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1232"></child>
+        <children><child nodeId="node-1328"></child>
         </children>
     </item>
-    <item nodeId="node-1232">
+    <item nodeId="node-1328">
         <command xml:space="preserve">mine sulfur</command>
         <result xml:space="preserve">You chip away at the sulfur with the pickaxe and obtain a few chunks of it (now called S).
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1233"></child>
+        <children><child nodeId="node-1329"></child>
         </children>
     </item>
-    <item nodeId="node-1233">
+    <item nodeId="node-1329">
         <command xml:space="preserve">take S</command>
         <result xml:space="preserve">(S)
 You already have that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1234"></child>
+        <children><child nodeId="node-1330"></child>
         </children>
     </item>
-    <item nodeId="node-1234">
+    <item nodeId="node-1330">
         <command xml:space="preserve">mine coal</command>
         <result xml:space="preserve">You chip away at the Charcoal with the pickaxe and obtain a few chunks of it (now called C).
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1235"></child>
+        <children><child nodeId="node-1331"></child>
         </children>
     </item>
-    <item nodeId="node-1235">
+    <item nodeId="node-1331">
         <command xml:space="preserve">mine nitrate</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1236"></child>
+        <children><child nodeId="node-1332"></child>
         </children>
     </item>
-    <item nodeId="node-1236">
+    <item nodeId="node-1332">
         <command xml:space="preserve">mine potassium nitrate</command>
         <result xml:space="preserve">I only understood you as far as wanting to mine Potassium wall.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1237"></child>
+        <children><child nodeId="node-1333"></child>
         </children>
     </item>
-    <item nodeId="node-1237">
+    <item nodeId="node-1333">
         <command xml:space="preserve">mine pottassium</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1238"></child>
+        <children><child nodeId="node-1334"></child>
         </children>
     </item>
-    <item nodeId="node-1238">
+    <item nodeId="node-1334">
         <command xml:space="preserve">mine potassium</command>
         <result xml:space="preserve">You chip away at the Potassium Nitrate with the pickaxe and obtain a few chunks of it (now called KNO3).
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1239"></child>
+        <children><child nodeId="node-1335"></child>
         </children>
     </item>
-    <item nodeId="node-1239">
+    <item nodeId="node-1335">
         <command xml:space="preserve">combine KNO3 with C</command>
         <result xml:space="preserve">nothing happens
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1240"></child>
+        <children><child nodeId="node-1336"></child>
         </children>
     </item>
-    <item nodeId="node-1240">
+    <item nodeId="node-1336">
         <command xml:space="preserve">combine S with C</command>
         <result xml:space="preserve">(S with C)
 You Combine the two rocks to create an Accelerant!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1241"></child>
+        <children><child nodeId="node-1337"></child>
         </children>
     </item>
-    <item nodeId="node-1241">
+    <item nodeId="node-1337">
         <command xml:space="preserve">combine Accelerant with KNO3</command>
         <result xml:space="preserve">You Combine the Accelerant and Oxidizer (KNO3) to creat Gunpowder!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1242"></child>
+        <children><child nodeId="node-1338"></child>
         </children>
     </item>
-    <item nodeId="node-1242">
+    <item nodeId="node-1338">
         <command xml:space="preserve">use gunpowder on rubble</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1243"></child>
+        <children><child nodeId="node-1339"></child>
         </children>
     </item>
-    <item nodeId="node-1243">
+    <item nodeId="node-1339">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Locker Room (in the Minecart)
@@ -619,19 +619,19 @@ The old room where the miners would store their belongings. lockers line the wal
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1244"></child>
+        <children><child nodeId="node-1340"></child>
         </children>
     </item>
-    <item nodeId="node-1244">
+    <item nodeId="node-1340">
         <command xml:space="preserve">x poster</command>
         <result xml:space="preserve">How to Make Gunpowder: Combine Sulfur with Coal to create an Accelerant. Then combine  with Potassium Nitrate to create gunpowder. Great for place(ing) on rocks to blow them up!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1245"></child>
+        <children><child nodeId="node-1341"></child>
         </children>
     </item>
-    <item nodeId="node-1245">
+    <item nodeId="node-1341">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">The winch slowly pulled you all the way to the main shaft, you should get out of the Mine cart and look for a way out.
 
@@ -642,19 +642,19 @@ You can see Rubble here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1246"></child>
+        <children><child nodeId="node-1342"></child>
         </children>
     </item>
-    <item nodeId="node-1246">
+    <item nodeId="node-1342">
         <command xml:space="preserve">place gunpowder on rubble</command>
         <result xml:space="preserve">You place the Gunpowder on the rubble and light it, then run around the corner. A few seconds later you hear a loud BOOM and the pathway to outside has been cleared.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1247"></child>
+        <children><child nodeId="node-1343"></child>
         </children>
     </item>
-    <item nodeId="node-1247">
+    <item nodeId="node-1343">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Earth is a room (in the Minecart)
@@ -665,157 +665,157 @@ You can see Rubble here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1006">
+    <item nodeId="node-1344">
         <command xml:space="preserve">x fuel tanl</command>
         <result xml:space="preserve">I only understood you as far as wanting to examine the Fuel tank.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1007"></child>
+        <children><child nodeId="node-1345"></child>
         </children>
     </item>
-    <item nodeId="node-1007">
+    <item nodeId="node-1345">
         <command xml:space="preserve">x fuel tank</command>
         <result xml:space="preserve">You see nothing special about the Fuel tank.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1008">
+    <item nodeId="node-1346">
         <command xml:space="preserve">take gas can</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1009"></child>
-            <child nodeId="node-1131"></child>
+        <children><child nodeId="node-1398"></child>
+            <child nodeId="node-1347"></child>
         </children>
     </item>
-    <item nodeId="node-1131">
+    <item nodeId="node-1347">
         <command xml:space="preserve">take fuel tank</command>
         <result xml:space="preserve">That's fixed in place.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1132"></child>
+        <children><child nodeId="node-1348"></child>
         </children>
     </item>
-    <item nodeId="node-1132">
+    <item nodeId="node-1348">
         <command xml:space="preserve">x fuel tank</command>
         <result xml:space="preserve"> The fuel tank has no gas in it. 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1133"></child>
+        <children><child nodeId="node-1349"></child>
         </children>
     </item>
-    <item nodeId="node-1133">
+    <item nodeId="node-1349">
         <command xml:space="preserve">use gas can on fuel tank</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1134"></child>
+        <children><child nodeId="node-1350"></child>
         </children>
     </item>
-    <item nodeId="node-1134">
+    <item nodeId="node-1350">
         <command xml:space="preserve">put gas can in fuel tank</command>
         <result xml:space="preserve">That can't contain things.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1135"></child>
+        <children><child nodeId="node-1351"></child>
         </children>
     </item>
-    <item nodeId="node-1135">
+    <item nodeId="node-1351">
         <command xml:space="preserve">fill fuel tank with gas can</command>
         <result xml:space="preserve">Try "Pour" gas into tank"
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1136"></child>
+        <children><child nodeId="node-1352"></child>
         </children>
     </item>
-    <item nodeId="node-1136">
+    <item nodeId="node-1352">
         <command xml:space="preserve">pour gas into tank</command>
         <result xml:space="preserve">The fuel tank is filled
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1137"></child>
+        <children><child nodeId="node-1353"></child>
         </children>
     </item>
-    <item nodeId="node-1137">
+    <item nodeId="node-1353">
         <command xml:space="preserve">x winch</command>
         <result xml:space="preserve"> Now that the uel tank is full it might not be a bad idea to try and  turn  it on. 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1138"></child>
+        <children><child nodeId="node-1354"></child>
         </children>
     </item>
-    <item nodeId="node-1138">
+    <item nodeId="node-1354">
         <command xml:space="preserve">turn on winch</command>
         <result xml:space="preserve">You switch Winch on.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1139"></child>
+        <children><child nodeId="node-1355"></child>
         </children>
     </item>
-    <item nodeId="node-1139">
+    <item nodeId="node-1355">
         <command xml:space="preserve">x minecart</command>
         <result xml:space="preserve">A heavy old minecart attached to a winch, maybe i could get out o here in this.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1140"></child>
+        <children><child nodeId="node-1356"></child>
         </children>
     </item>
-    <item nodeId="node-1140">
+    <item nodeId="node-1356">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">There is a pitch black empty cavern between the Lower and Main Shaft created by the earthquake, if you were to walk it would be certain death.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1141"></child>
+        <children><child nodeId="node-1357"></child>
         </children>
     </item>
-    <item nodeId="node-1141">
+    <item nodeId="node-1357">
         <command xml:space="preserve">x cavern</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1142"></child>
+        <children><child nodeId="node-1358"></child>
         </children>
     </item>
-    <item nodeId="node-1142">
+    <item nodeId="node-1358">
         <command xml:space="preserve">x main shaft</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1143"></child>
+        <children><child nodeId="node-1359"></child>
         </children>
     </item>
-    <item nodeId="node-1143">
+    <item nodeId="node-1359">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">There is a pitch black empty cavern between the Lower and Main Shaft created by the earthquake, if you were to walk it would be certain death.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1144"></child>
+        <children><child nodeId="node-1360"></child>
         </children>
     </item>
-    <item nodeId="node-1144">
+    <item nodeId="node-1360">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">There is a pitch black empty cavern between the Lower and Main Shaft created by the earthquake, if you were to walk it would be certain death.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1145"></child>
+        <children><child nodeId="node-1361"></child>
         </children>
     </item>
-    <item nodeId="node-1145">
+    <item nodeId="node-1361">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">Lower Shaft
 The lower part of the mine where most of the valuble ores use to be. Mostly barren now with just a minecart attached to a winch and a gas can sitting next to it. The Main Shaft is to the west.
@@ -824,19 +824,19 @@ You can see the Minecart (empty), a Fuel tank and Winch here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1146"></child>
+        <children><child nodeId="node-1362"></child>
         </children>
     </item>
-    <item nodeId="node-1146">
+    <item nodeId="node-1362">
         <command xml:space="preserve">turn on winch</command>
         <result xml:space="preserve">That's already on.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1147"></child>
+        <children><child nodeId="node-1363"></child>
         </children>
     </item>
-    <item nodeId="node-1147">
+    <item nodeId="node-1363">
         <command xml:space="preserve">get into minecart</command>
         <result xml:space="preserve">you get into the minecart
 Lower Shaft (in the Minecart)
@@ -846,10 +846,10 @@ You can see a Fuel tank and Winch here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1148"></child>
+        <children><child nodeId="node-1364"></child>
         </children>
     </item>
-    <item nodeId="node-1148">
+    <item nodeId="node-1364">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">The winch slowly pulled you all the way to the main shaft, you should get out of the Mine cart and look for a way out.
 
@@ -860,55 +860,55 @@ You can see Rubble here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1149"></child>
+        <children><child nodeId="node-1365"></child>
         </children>
     </item>
-    <item nodeId="node-1149">
+    <item nodeId="node-1365">
         <command xml:space="preserve">x rubble</command>
         <result xml:space="preserve">A large mound of rocks completely blocking the exit, maybe you could blow a hole in the rocks.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1150"></child>
+        <children><child nodeId="node-1366"></child>
         </children>
     </item>
-    <item nodeId="node-1150">
+    <item nodeId="node-1366">
         <command xml:space="preserve">tale coal</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1151"></child>
+        <children><child nodeId="node-1367"></child>
         </children>
     </item>
-    <item nodeId="node-1151">
+    <item nodeId="node-1367">
         <command xml:space="preserve">take coal</command>
         <result xml:space="preserve">That's hardly portable.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1152"></child>
+        <children><child nodeId="node-1368"></child>
         </children>
     </item>
-    <item nodeId="node-1152">
+    <item nodeId="node-1368">
         <command xml:space="preserve">x coal</command>
         <result xml:space="preserve">A large part of the shaft is covered in a black rock that is labeled as coal
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1153"></child>
+        <children><child nodeId="node-1369"></child>
         </children>
     </item>
-    <item nodeId="node-1153">
+    <item nodeId="node-1369">
         <command xml:space="preserve">x sulfur</command>
         <result xml:space="preserve">A large part of the shaft is covered in a yellow rock that is labeled as sulfur
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1154"></child>
+        <children><child nodeId="node-1370"></child>
         </children>
     </item>
-    <item nodeId="node-1154">
+    <item nodeId="node-1370">
         <command xml:space="preserve">get out of minecart</command>
         <result xml:space="preserve">You get out of the Minecart.
 
@@ -919,10 +919,10 @@ You can see the Minecart (empty) and Rubble here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1155"></child>
+        <children><child nodeId="node-1371"></child>
         </children>
     </item>
-    <item nodeId="node-1155">
+    <item nodeId="node-1371">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Locker Room
@@ -932,37 +932,37 @@ You can see Mortar + Pestle here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1156"></child>
+        <children><child nodeId="node-1372"></child>
         </children>
     </item>
-    <item nodeId="node-1156">
+    <item nodeId="node-1372">
         <command xml:space="preserve">take mortar</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1157"></child>
+        <children><child nodeId="node-1373"></child>
         </children>
     </item>
-    <item nodeId="node-1157">
+    <item nodeId="node-1373">
         <command xml:space="preserve">x lockers</command>
         <result xml:space="preserve">Old Rusty lockers. One of them is slightly ajar and contains a pickaxe.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1158"></child>
+        <children><child nodeId="node-1374"></child>
         </children>
     </item>
-    <item nodeId="node-1158">
+    <item nodeId="node-1374">
         <command xml:space="preserve">take pickaxe</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1159"></child>
+        <children><child nodeId="node-1375"></child>
         </children>
     </item>
-    <item nodeId="node-1159">
+    <item nodeId="node-1375">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">The winch slowly pulled you all the way to the main shaft, you should get out of the Mine cart and look for a way out.
 
@@ -973,81 +973,81 @@ You can see the Minecart (empty) and Rubble here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1160"></child>
+        <children><child nodeId="node-1376"></child>
         </children>
     </item>
-    <item nodeId="node-1160">
+    <item nodeId="node-1376">
         <command xml:space="preserve">mine sulfur</command>
         <result xml:space="preserve">You chip away at the sulfur with the pickaxe and obtain a few chunks of it (now called S).
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1161"></child>
+        <children><child nodeId="node-1377"></child>
         </children>
     </item>
-    <item nodeId="node-1161">
+    <item nodeId="node-1377">
         <command xml:space="preserve">mine coal</command>
         <result xml:space="preserve">You chip away at the Charcoal with the pickaxe and obtain a few chunks of it (now called C).
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1162"></child>
+        <children><child nodeId="node-1378"></child>
         </children>
     </item>
-    <item nodeId="node-1162">
+    <item nodeId="node-1378">
         <command xml:space="preserve">mine potassium</command>
         <result xml:space="preserve">You chip away at the Potassium Nitrate with the pickaxe and obtain a few chunks of it (now called KNO3).
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1163"></child>
+        <children><child nodeId="node-1379"></child>
         </children>
     </item>
-    <item nodeId="node-1163">
+    <item nodeId="node-1379">
         <command xml:space="preserve">combine c</command>
         <result xml:space="preserve">What do you want to combine C with?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1164"></child>
+        <children><child nodeId="node-1380"></child>
         </children>
     </item>
-    <item nodeId="node-1164">
+    <item nodeId="node-1380">
         <command xml:space="preserve">combine c with s</command>
         <result xml:space="preserve">(S)
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1165"></child>
+        <children><child nodeId="node-1381"></child>
         </children>
     </item>
-    <item nodeId="node-1165">
+    <item nodeId="node-1381">
         <command xml:space="preserve">combine s with kno3</command>
         <result xml:space="preserve">(S with KNO3)
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1166"></child>
+        <children><child nodeId="node-1382"></child>
         </children>
     </item>
-    <item nodeId="node-1166">
+    <item nodeId="node-1382">
         <command xml:space="preserve">combine s with c</command>
         <result xml:space="preserve">(S with C)
 You Combine the two rocks to create an Accelerant!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1167"></child>
+        <children><child nodeId="node-1383"></child>
         </children>
     </item>
-    <item nodeId="node-1167">
+    <item nodeId="node-1383">
         <command xml:space="preserve">combine accelerant with kno3</command>
         <result xml:space="preserve">You Combine the Accelerant and Oxidizer (KNO3) to creat Gunpowder!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1168"></child>
+        <children><child nodeId="node-1384"></child>
         </children>
     </item>
-    <item nodeId="node-1168">
+    <item nodeId="node-1384">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   Gunpowder
@@ -1057,59 +1057,59 @@ You Combine the two rocks to create an Accelerant!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1169"></child>
+        <children><child nodeId="node-1385"></child>
         </children>
     </item>
-    <item nodeId="node-1169">
+    <item nodeId="node-1385">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">(first opening Rubble)
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1170"></child>
+        <children><child nodeId="node-1386"></child>
         </children>
     </item>
-    <item nodeId="node-1170">
+    <item nodeId="node-1386">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">(first opening Rubble)
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1171"></child>
+        <children><child nodeId="node-1387"></child>
         </children>
     </item>
-    <item nodeId="node-1171">
+    <item nodeId="node-1387">
         <command xml:space="preserve">open rubble</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1172"></child>
+        <children><child nodeId="node-1388"></child>
         </children>
     </item>
-    <item nodeId="node-1172">
+    <item nodeId="node-1388">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">(first opening Rubble)
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1173"></child>
+        <children><child nodeId="node-1389"></child>
         </children>
     </item>
-    <item nodeId="node-1173">
+    <item nodeId="node-1389">
         <command xml:space="preserve">put gunpowder in rubble</command>
         <result xml:space="preserve">That can't contain things.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1174"></child>
+        <children><child nodeId="node-1390"></child>
         </children>
     </item>
-    <item nodeId="node-1174">
+    <item nodeId="node-1390">
         <command xml:space="preserve">x gunpowder</command>
         <result xml:space="preserve">A great tool for blowing things up
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1175"></child>
+        <children><child nodeId="node-1391"></child>
         </children>
     </item>
-    <item nodeId="node-1175">
+    <item nodeId="node-1391">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Locker Room
@@ -1117,10 +1117,10 @@ The old room where the miners would store their belongings. lockers line the wal
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1176"></child>
+        <children><child nodeId="node-1392"></child>
         </children>
     </item>
-    <item nodeId="node-1176">
+    <item nodeId="node-1392">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   Gunpowder
@@ -1130,19 +1130,19 @@ The old room where the miners would store their belongings. lockers line the wal
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1177"></child>
+        <children><child nodeId="node-1393"></child>
         </children>
     </item>
-    <item nodeId="node-1177">
+    <item nodeId="node-1393">
         <command xml:space="preserve">x poster</command>
         <result xml:space="preserve">How to Make Gunpowder: Combine Sulfur with Coal to create an Accelerant. Then combine  with Potassium Nitrate to create gunpowder. Great for place(ing) on rocks to blow them up!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1178"></child>
+        <children><child nodeId="node-1394"></child>
         </children>
     </item>
-    <item nodeId="node-1178">
+    <item nodeId="node-1394">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">The winch slowly pulled you all the way to the main shaft, you should get out of the Mine cart and look for a way out.
 
@@ -1153,27 +1153,27 @@ You can see the Minecart (empty) and Rubble here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1179"></child>
+        <children><child nodeId="node-1395"></child>
         </children>
     </item>
-    <item nodeId="node-1179">
+    <item nodeId="node-1395">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">(first opening Rubble)
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1180"></child>
+        <children><child nodeId="node-1396"></child>
         </children>
     </item>
-    <item nodeId="node-1180">
+    <item nodeId="node-1396">
         <command xml:space="preserve">place gunpowder on rubble</command>
         <result xml:space="preserve">You place the Gunpowder on the rubble and light it, then run around the corner. A few seconds later you hear a loud BOOM and the pathway to outside has been cleared.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1181"></child>
+        <children><child nodeId="node-1397"></child>
         </children>
     </item>
-    <item nodeId="node-1181">
+    <item nodeId="node-1397">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Earth is a room
@@ -1193,50 +1193,50 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1009">
+    <item nodeId="node-1398">
         <command xml:space="preserve">pour gas into tank</command>
         <result xml:space="preserve">The fuel tank is filled
 You can't pour the Gas Can.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1010"></child>
+        <children><child nodeId="node-1399"></child>
         </children>
     </item>
-    <item nodeId="node-1010">
+    <item nodeId="node-1399">
         <command xml:space="preserve">get in minecart</command>
         <result xml:space="preserve">The Minecart won't move anywhere unless the winch is turned on.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1086">
+    <item nodeId="node-1400">
         <command xml:space="preserve">take gas</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1087"></child>
+        <children><child nodeId="node-1401"></child>
         </children>
     </item>
-    <item nodeId="node-1087">
+    <item nodeId="node-1401">
         <command xml:space="preserve">pour gas in tank</command>
         <result xml:space="preserve">The fuel tank is filled
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1088"></child>
+        <children><child nodeId="node-1402"></child>
         </children>
     </item>
-    <item nodeId="node-1088">
+    <item nodeId="node-1402">
         <command xml:space="preserve">turn winch on</command>
         <result xml:space="preserve">You switch Winch on.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1089"></child>
+        <children><child nodeId="node-1403"></child>
         </children>
     </item>
-    <item nodeId="node-1089">
+    <item nodeId="node-1403">
         <command xml:space="preserve">get in minecart</command>
         <result xml:space="preserve">you get into the minecart
 Lower Shaft (in the Minecart)
@@ -1246,10 +1246,10 @@ You can see a Fuel tank and Winch here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1090"></child>
+        <children><child nodeId="node-1404"></child>
         </children>
     </item>
-    <item nodeId="node-1090">
+    <item nodeId="node-1404">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">The winch slowly pulled you all the way to the main shaft, you should get out of the Mine cart and look for a way out.
 
@@ -1260,10 +1260,10 @@ You can see Rubble here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1091"></child>
+        <children><child nodeId="node-1405"></child>
         </children>
     </item>
-    <item nodeId="node-1091">
+    <item nodeId="node-1405">
         <command xml:space="preserve">get out of minecart</command>
         <result xml:space="preserve">You get out of the Minecart.
 
@@ -1274,19 +1274,19 @@ You can see the Minecart (empty) and Rubble here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1092"></child>
+        <children><child nodeId="node-1406"></child>
         </children>
     </item>
-    <item nodeId="node-1092">
+    <item nodeId="node-1406">
         <command xml:space="preserve">w\e</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1093"></child>
+        <children><child nodeId="node-1407"></child>
         </children>
     </item>
-    <item nodeId="node-1093">
+    <item nodeId="node-1407">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Lower Shaft
@@ -1296,48 +1296,48 @@ You can see a Fuel tank and Winch here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1094"></child>
+        <children><child nodeId="node-1408"></child>
         </children>
     </item>
-    <item nodeId="node-1094">
+    <item nodeId="node-1408">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">There is a pitch black empty cavern between the Lower and Main Shaft created by the earthquake, if you were to walk it would be certain death.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1095"></child>
+        <children><child nodeId="node-1409"></child>
         </children>
     </item>
-    <item nodeId="node-1095">
+    <item nodeId="node-1409">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">There is a pitch black empty cavern between the Lower and Main Shaft created by the earthquake, if you were to walk it would be certain death.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1096"></child>
+        <children><child nodeId="node-1410"></child>
         </children>
     </item>
-    <item nodeId="node-1096">
+    <item nodeId="node-1410">
         <command xml:space="preserve">undo</command>
         <result xml:space="preserve">Lower Shaft
 [Previous turn undone.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1097"></child>
+        <children><child nodeId="node-1411"></child>
         </children>
     </item>
-    <item nodeId="node-1097">
+    <item nodeId="node-1411">
         <command xml:space="preserve">undo</command>
         <result xml:space="preserve">Lower Shaft
 [Previous turn undone.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1098"></child>
+        <children><child nodeId="node-1412"></child>
         </children>
     </item>
-    <item nodeId="node-1098">
+    <item nodeId="node-1412">
         <command xml:space="preserve">undo</command>
         <result xml:space="preserve">Main Shaft
 [Previous turn undone.]
@@ -1345,137 +1345,137 @@ You can see a Fuel tank and Winch here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1011">
+    <item nodeId="node-1413">
         <command xml:space="preserve">take Gas can</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1012"></child>
+        <children><child nodeId="node-1414"></child>
         </children>
     </item>
-    <item nodeId="node-1012">
+    <item nodeId="node-1414">
         <command xml:space="preserve">pur gas can into fuel tank</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1013"></child>
+        <children><child nodeId="node-1415"></child>
         </children>
     </item>
-    <item nodeId="node-1013">
+    <item nodeId="node-1415">
         <command xml:space="preserve">pour gas can into fuel tank</command>
         <result xml:space="preserve">The fuel tank is filled
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1014"></child>
+        <children><child nodeId="node-1416"></child>
         </children>
     </item>
-    <item nodeId="node-1014">
+    <item nodeId="node-1416">
         <command xml:space="preserve">x winch</command>
         <result xml:space="preserve">You see nothing special about Winch.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1015"></child>
+        <children><child nodeId="node-1417"></child>
         </children>
     </item>
-    <item nodeId="node-1015">
+    <item nodeId="node-1417">
         <command xml:space="preserve">turn on winch</command>
         <result xml:space="preserve">You switch Winch on.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1016"></child>
+        <children><child nodeId="node-1418"></child>
         </children>
     </item>
-    <item nodeId="node-1016">
+    <item nodeId="node-1418">
         <command xml:space="preserve">get in minecart</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1185">
+    <item nodeId="node-1419">
         <command xml:space="preserve">purloin gunpowder</command>
         <result xml:space="preserve">[Purloined.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1017">
+    <item nodeId="node-1420">
         <command xml:space="preserve">pur gas can into uel tank</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1018"></child>
+        <children><child nodeId="node-1421"></child>
         </children>
     </item>
-    <item nodeId="node-1018">
+    <item nodeId="node-1421">
         <command xml:space="preserve">puro gas can into fuel tank</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1019"></child>
+        <children><child nodeId="node-1422"></child>
         </children>
     </item>
-    <item nodeId="node-1019">
+    <item nodeId="node-1422">
         <command xml:space="preserve">pour gas can into fuel tank</command>
         <result xml:space="preserve">The fuel tank is filled
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1020">
+    <item nodeId="node-1423">
         <command xml:space="preserve">pour gas into tank</command>
         <result xml:space="preserve">You can't pour something you're not hollding
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1021"></child>
+        <children><child nodeId="node-1424"></child>
         </children>
     </item>
-    <item nodeId="node-1021">
+    <item nodeId="node-1424">
         <command xml:space="preserve">take gas can</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1022"></child>
+        <children><child nodeId="node-1425"></child>
         </children>
     </item>
-    <item nodeId="node-1022">
+    <item nodeId="node-1425">
         <command xml:space="preserve">pour gas into tank</command>
         <result xml:space="preserve">The fuel tank is filled
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1023"></child>
+        <children><child nodeId="node-1426"></child>
         </children>
     </item>
-    <item nodeId="node-1023">
+    <item nodeId="node-1426">
         <command xml:space="preserve">get in minecart</command>
         <result xml:space="preserve">The Minecart won't move anywhere unless the winch is turned on.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1024"></child>
+        <children><child nodeId="node-1427"></child>
         </children>
     </item>
-    <item nodeId="node-1024">
+    <item nodeId="node-1427">
         <command xml:space="preserve">turn on winch</command>
         <result xml:space="preserve">You switch Winch on.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1025"></child>
+        <children><child nodeId="node-1428"></child>
         </children>
     </item>
-    <item nodeId="node-1025">
+    <item nodeId="node-1428">
         <command xml:space="preserve">x fuel tank</command>
         <result xml:space="preserve">You see nothing special about the Fuel tank.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1248">
+    <item nodeId="node-1429">
         <command xml:space="preserve">hehe</command>
         <result xml:space="preserve">Main Shaft
 The main part of the shaft used for mining more common ores. To the east if the minecart rail, to the west is the old lockerooms, and to the south was where the exit used to be, but now it is blocked by a mound of rubble. Also in the room are three different sections of wall labeled Sulfur, Coal, and Potassium Nitrate.
@@ -1484,10 +1484,10 @@ You can see Rubble here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1249"></child>
+        <children><child nodeId="node-1430"></child>
         </children>
     </item>
-    <item nodeId="node-1249">
+    <item nodeId="node-1430">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Earth
@@ -1507,179 +1507,179 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1026">
+    <item nodeId="node-1431">
         <command xml:space="preserve">get in minecart</command>
         <result xml:space="preserve">Getting in the minecart would be no use since it is not filled with fuel.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1037"></child>
-            <child nodeId="node-1034"></child>
-            <child nodeId="node-1032"></child>
-            <child nodeId="node-1027"></child>
+        <children><child nodeId="node-1442"></child>
+            <child nodeId="node-1439"></child>
+            <child nodeId="node-1437"></child>
+            <child nodeId="node-1432"></child>
         </children>
     </item>
-    <item nodeId="node-1027">
+    <item nodeId="node-1432">
         <command xml:space="preserve">take gas can</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1028"></child>
+        <children><child nodeId="node-1433"></child>
         </children>
     </item>
-    <item nodeId="node-1028">
+    <item nodeId="node-1433">
         <command xml:space="preserve">pourgas into fuel tank</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1029"></child>
+        <children><child nodeId="node-1434"></child>
         </children>
     </item>
-    <item nodeId="node-1029">
+    <item nodeId="node-1434">
         <command xml:space="preserve">pour gas into fuel tank</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1030"></child>
+        <children><child nodeId="node-1435"></child>
         </children>
     </item>
-    <item nodeId="node-1030">
+    <item nodeId="node-1435">
         <command xml:space="preserve">turn on WInch</command>
         <result xml:space="preserve">It isn't something you can switch.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1031"></child>
+        <children><child nodeId="node-1436"></child>
         </children>
     </item>
-    <item nodeId="node-1031">
+    <item nodeId="node-1436">
         <command xml:space="preserve">turn on winch</command>
         <result xml:space="preserve">It isn't something you can switch.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1032">
+    <item nodeId="node-1437">
         <command xml:space="preserve">switch on minecart</command>
         <result xml:space="preserve">That isn't available.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1033"></child>
+        <children><child nodeId="node-1438"></child>
         </children>
     </item>
-    <item nodeId="node-1033">
+    <item nodeId="node-1438">
         <command xml:space="preserve">turn on minecart</command>
         <result xml:space="preserve">That isn't available.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1034">
+    <item nodeId="node-1439">
         <command xml:space="preserve">start minecart</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1035"></child>
+        <children><child nodeId="node-1440"></child>
         </children>
     </item>
-    <item nodeId="node-1035">
+    <item nodeId="node-1440">
         <command xml:space="preserve">switch on minecart</command>
         <result xml:space="preserve">It isn't something you can switch.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1036"></child>
+        <children><child nodeId="node-1441"></child>
         </children>
     </item>
-    <item nodeId="node-1036">
+    <item nodeId="node-1441">
         <command xml:space="preserve">switch on car</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1037">
+    <item nodeId="node-1442">
         <command xml:space="preserve">ignite minecart</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1038"></child>
+        <children><child nodeId="node-1443"></child>
         </children>
     </item>
-    <item nodeId="node-1038">
+    <item nodeId="node-1443">
         <command xml:space="preserve">start minecart</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1039"></child>
+        <children><child nodeId="node-1444"></child>
         </children>
     </item>
-    <item nodeId="node-1039">
+    <item nodeId="node-1444">
         <command xml:space="preserve">turn on minecart</command>
         <result xml:space="preserve">You switch the ignition on.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1061">
+    <item nodeId="node-1445">
         <command xml:space="preserve">get gas can</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1062"></child>
+        <children><child nodeId="node-1446"></child>
         </children>
     </item>
-    <item nodeId="node-1062">
+    <item nodeId="node-1446">
         <command xml:space="preserve">pour gas can in fuel tanl</command>
         <result xml:space="preserve">I only understood you as far as wanting to pour the Gas Can in the Fuel tank.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1063"></child>
+        <children><child nodeId="node-1447"></child>
         </children>
     </item>
-    <item nodeId="node-1063">
+    <item nodeId="node-1447">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">There is a pitch black empty cavern between the Lower and Main Shaft created by the earthquake, if you were to walk it would be certain death.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1064"></child>
+        <children><child nodeId="node-1448"></child>
         </children>
     </item>
-    <item nodeId="node-1064">
+    <item nodeId="node-1448">
         <command xml:space="preserve">pour gas in tank</command>
         <result xml:space="preserve">The fuel tank is filled
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1065"></child>
+        <children><child nodeId="node-1449"></child>
         </children>
     </item>
-    <item nodeId="node-1065">
+    <item nodeId="node-1449">
         <command xml:space="preserve">start winch</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1066"></child>
+        <children><child nodeId="node-1450"></child>
         </children>
     </item>
-    <item nodeId="node-1066">
+    <item nodeId="node-1450">
         <command xml:space="preserve">turn on winch</command>
         <result xml:space="preserve">You switch Winch on.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1067"></child>
+        <children><child nodeId="node-1451"></child>
         </children>
     </item>
-    <item nodeId="node-1067">
+    <item nodeId="node-1451">
         <command xml:space="preserve">get in minecart</command>
         <result xml:space="preserve">you get into the minecart
 Lower Shaft (in the Minecart)
@@ -1689,19 +1689,19 @@ You can see a Fuel tank and Winch here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1068"></child>
+        <children><child nodeId="node-1452"></child>
         </children>
     </item>
-    <item nodeId="node-1068">
+    <item nodeId="node-1452">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1069"></child>
+        <children><child nodeId="node-1453"></child>
         </children>
     </item>
-    <item nodeId="node-1069">
+    <item nodeId="node-1453">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">The winch slowly pulled you all the way to the main shaft, you should get out of the Mine cart and look for a way out.
 
@@ -1712,28 +1712,28 @@ You can see Rubble here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1070"></child>
+        <children><child nodeId="node-1454"></child>
         </children>
     </item>
-    <item nodeId="node-1070">
+    <item nodeId="node-1454">
         <command xml:space="preserve">exit minecart</command>
         <result xml:space="preserve">I only understood you as far as wanting to exit.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1071"></child>
+        <children><child nodeId="node-1455"></child>
         </children>
     </item>
-    <item nodeId="node-1071">
+    <item nodeId="node-1455">
         <command xml:space="preserve">leave minecart</command>
         <result xml:space="preserve">I only understood you as far as wanting to leave.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1072"></child>
+        <children><child nodeId="node-1456"></child>
         </children>
     </item>
-    <item nodeId="node-1072">
+    <item nodeId="node-1456">
         <command xml:space="preserve">get out of minecart</command>
         <result xml:space="preserve">You get out of the Minecart.
 
@@ -1744,46 +1744,46 @@ You can see the Minecart (empty) and Rubble here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1073"></child>
+        <children><child nodeId="node-1457"></child>
         </children>
     </item>
-    <item nodeId="node-1073">
+    <item nodeId="node-1457">
         <command xml:space="preserve">x sulur</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1074"></child>
+        <children><child nodeId="node-1458"></child>
         </children>
     </item>
-    <item nodeId="node-1074">
+    <item nodeId="node-1458">
         <command xml:space="preserve">x sulfur</command>
         <result xml:space="preserve">A large part of the shaft is covered in a yellow rock that is labeled as sulfur
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1075"></child>
+        <children><child nodeId="node-1459"></child>
         </children>
     </item>
-    <item nodeId="node-1075">
+    <item nodeId="node-1459">
         <command xml:space="preserve">x coal</command>
         <result xml:space="preserve">A large part of the shaft is covered in a black rock that is labeled as coal
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1076"></child>
+        <children><child nodeId="node-1460"></child>
         </children>
     </item>
-    <item nodeId="node-1076">
+    <item nodeId="node-1460">
         <command xml:space="preserve">x potassium</command>
         <result xml:space="preserve">A large part of the shaft is covered in a white rock that is labeled as Potassium Nitrate
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1077"></child>
+        <children><child nodeId="node-1461"></child>
         </children>
     </item>
-    <item nodeId="node-1077">
+    <item nodeId="node-1461">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Locker Room
@@ -1793,116 +1793,116 @@ You can see Mortar + Pestle here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1078"></child>
+        <children><child nodeId="node-1462"></child>
         </children>
     </item>
-    <item nodeId="node-1078">
+    <item nodeId="node-1462">
         <command xml:space="preserve">get all</command>
         <result xml:space="preserve">Mortar + Pestle: Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1079"></child>
+        <children><child nodeId="node-1463"></child>
         </children>
     </item>
-    <item nodeId="node-1079">
+    <item nodeId="node-1463">
         <command xml:space="preserve">x lockers</command>
         <result xml:space="preserve">Old Rusty lockers. One of them is slightly ajar and contains a pickaxe.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1080"></child>
+        <children><child nodeId="node-1464"></child>
         </children>
     </item>
-    <item nodeId="node-1080">
+    <item nodeId="node-1464">
         <command xml:space="preserve">x poster</command>
         <result xml:space="preserve">How to Make Gunpowder: Combine Sulfur with Coal to create an Accelerant. Then combine  with Potassium Nitrate to create gunpowder. Great for place(ing) on rocks to blow them up!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1081"></child>
+        <children><child nodeId="node-1465"></child>
         </children>
     </item>
-    <item nodeId="node-1081">
+    <item nodeId="node-1465">
         <command xml:space="preserve">get pickaxe</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1082"></child>
+        <children><child nodeId="node-1466"></child>
         </children>
     </item>
-    <item nodeId="node-1082">
+    <item nodeId="node-1466">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">There is a pitch black empty cavern between the Lower and Main Shaft created by the earthquake, if you were to walk it would be certain death.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1083"></child>
+        <children><child nodeId="node-1467"></child>
         </children>
     </item>
-    <item nodeId="node-1083">
+    <item nodeId="node-1467">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">There is a pitch black empty cavern between the Lower and Main Shaft created by the earthquake, if you were to walk it would be certain death.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1084"></child>
+        <children><child nodeId="node-1468"></child>
         </children>
     </item>
-    <item nodeId="node-1084">
+    <item nodeId="node-1468">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1085"></child>
+        <children><child nodeId="node-1469"></child>
         </children>
     </item>
-    <item nodeId="node-1085">
+    <item nodeId="node-1469">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">There is a pitch black empty cavern between the Lower and Main Shaft created by the earthquake, if you were to walk it would be certain death.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1040">
+    <item nodeId="node-1470">
         <command xml:space="preserve">get gas</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1100"></child>
-            <child nodeId="node-1041"></child>
+        <children><child nodeId="node-1483"></child>
+            <child nodeId="node-1471"></child>
         </children>
     </item>
-    <item nodeId="node-1041">
+    <item nodeId="node-1471">
         <command xml:space="preserve">pour gas into tank</command>
         <result xml:space="preserve">The fuel tank is filled
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1042"></child>
+        <children><child nodeId="node-1472"></child>
         </children>
     </item>
-    <item nodeId="node-1042">
+    <item nodeId="node-1472">
         <command xml:space="preserve">get in minecart</command>
         <result xml:space="preserve">The Minecart won't move anywhere unless the winch is turned on.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1043"></child>
+        <children><child nodeId="node-1473"></child>
         </children>
     </item>
-    <item nodeId="node-1043">
+    <item nodeId="node-1473">
         <command xml:space="preserve">turn on winch</command>
         <result xml:space="preserve">You switch Winch on.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1044"></child>
+        <children><child nodeId="node-1474"></child>
         </children>
     </item>
-    <item nodeId="node-1044">
+    <item nodeId="node-1474">
         <command xml:space="preserve">get in minecart</command>
         <result xml:space="preserve">you get into the minecart
 Lower Shaft (in the Minecart)
@@ -1910,19 +1910,19 @@ You can see a Fuel tank and Winch here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1045"></child>
+        <children><child nodeId="node-1475"></child>
         </children>
     </item>
-    <item nodeId="node-1045">
+    <item nodeId="node-1475">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1046"></child>
+        <children><child nodeId="node-1476"></child>
         </children>
     </item>
-    <item nodeId="node-1046">
+    <item nodeId="node-1476">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">The winch slowly pulled you all the way to the main shaft, you should get out of the Mine cart and look for a way out.
 
@@ -1930,80 +1930,80 @@ Main Shaft (in the Minecart)
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1047"></child>
+        <children><child nodeId="node-1477"></child>
         </children>
     </item>
-    <item nodeId="node-1047">
+    <item nodeId="node-1477">
         <command xml:space="preserve">get out o minecart</command>
         <result xml:space="preserve">I only understood you as far as wanting to get outside.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1048"></child>
+        <children><child nodeId="node-1478"></child>
         </children>
     </item>
-    <item nodeId="node-1048">
+    <item nodeId="node-1478">
         <command xml:space="preserve">get out of minecart</command>
         <result xml:space="preserve">I only understood you as far as wanting to get outside.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1049"></child>
+        <children><child nodeId="node-1479"></child>
         </children>
     </item>
-    <item nodeId="node-1049">
+    <item nodeId="node-1479">
         <command xml:space="preserve">get outside minecart</command>
         <result xml:space="preserve">I only understood you as far as wanting to get outside.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1050"></child>
+        <children><child nodeId="node-1480"></child>
         </children>
     </item>
-    <item nodeId="node-1050">
+    <item nodeId="node-1480">
         <command xml:space="preserve">leave minecart</command>
         <result xml:space="preserve">I only understood you as far as wanting to leave.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1051"></child>
+        <children><child nodeId="node-1481"></child>
         </children>
     </item>
-    <item nodeId="node-1051">
+    <item nodeId="node-1481">
         <command xml:space="preserve">get out minecart</command>
         <result xml:space="preserve">I only understood you as far as wanting to get outside.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1052"></child>
+        <children><child nodeId="node-1482"></child>
         </children>
     </item>
-    <item nodeId="node-1052">
+    <item nodeId="node-1482">
         <command xml:space="preserve">exit minecart</command>
         <result xml:space="preserve">I only understood you as far as wanting to exit.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1100">
+    <item nodeId="node-1483">
         <command xml:space="preserve">pour gas in tank</command>
         <result xml:space="preserve">The fuel tank is filled
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1184"></child>
-            <child nodeId="node-1101"></child>
+        <children><child nodeId="node-1513"></child>
+            <child nodeId="node-1484"></child>
         </children>
     </item>
-    <item nodeId="node-1101">
+    <item nodeId="node-1484">
         <command xml:space="preserve">turn on winch</command>
         <result xml:space="preserve">You switch Winch on.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1102"></child>
+        <children><child nodeId="node-1485"></child>
         </children>
     </item>
-    <item nodeId="node-1102">
+    <item nodeId="node-1485">
         <command xml:space="preserve">get in minecart</command>
         <result xml:space="preserve">you get into the minecart
 Lower Shaft (in the Minecart)
@@ -2013,19 +2013,19 @@ You can see a Fuel tank and Winch here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1103"></child>
+        <children><child nodeId="node-1486"></child>
         </children>
     </item>
-    <item nodeId="node-1103">
+    <item nodeId="node-1486">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1104"></child>
+        <children><child nodeId="node-1487"></child>
         </children>
     </item>
-    <item nodeId="node-1104">
+    <item nodeId="node-1487">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">The winch slowly pulled you all the way to the main shaft, you should get out of the Mine cart and look for a way out.
 
@@ -2036,10 +2036,10 @@ You can see Rubble here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1105"></child>
+        <children><child nodeId="node-1488"></child>
         </children>
     </item>
-    <item nodeId="node-1105">
+    <item nodeId="node-1488">
         <command xml:space="preserve">get out of minecart</command>
         <result xml:space="preserve">You get out of the Minecart.
 
@@ -2050,10 +2050,10 @@ You can see the Minecart (empty) and Rubble here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1106"></child>
+        <children><child nodeId="node-1489"></child>
         </children>
     </item>
-    <item nodeId="node-1106">
+    <item nodeId="node-1489">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Locker Room
@@ -2063,10 +2063,10 @@ You can see Mortar + Pestle here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1107"></child>
+        <children><child nodeId="node-1490"></child>
         </children>
     </item>
-    <item nodeId="node-1107">
+    <item nodeId="node-1490">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">The winch slowly pulled you all the way to the main shaft, you should get out of the Mine cart and look for a way out.
 
@@ -2077,19 +2077,19 @@ You can see the Minecart (empty) and Rubble here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1108"></child>
+        <children><child nodeId="node-1491"></child>
         </children>
     </item>
-    <item nodeId="node-1108">
+    <item nodeId="node-1491">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">There is a pitch black empty cavern between the Lower and Main Shaft created by the earthquake, if you were to walk it would be certain death.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1109"></child>
+        <children><child nodeId="node-1492"></child>
         </children>
     </item>
-    <item nodeId="node-1109">
+    <item nodeId="node-1492">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Locker Room
@@ -2099,37 +2099,37 @@ You can see Mortar + Pestle here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1110"></child>
+        <children><child nodeId="node-1493"></child>
         </children>
     </item>
-    <item nodeId="node-1110">
+    <item nodeId="node-1493">
         <command xml:space="preserve">get all</command>
         <result xml:space="preserve">Mortar + Pestle: Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1111"></child>
+        <children><child nodeId="node-1494"></child>
         </children>
     </item>
-    <item nodeId="node-1111">
+    <item nodeId="node-1494">
         <command xml:space="preserve">x locker</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1112"></child>
+        <children><child nodeId="node-1495"></child>
         </children>
     </item>
-    <item nodeId="node-1112">
+    <item nodeId="node-1495">
         <command xml:space="preserve">get pickaxe</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1113"></child>
+        <children><child nodeId="node-1496"></child>
         </children>
     </item>
-    <item nodeId="node-1113">
+    <item nodeId="node-1496">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">The winch slowly pulled you all the way to the main shaft, you should get out of the Mine cart and look for a way out.
 
@@ -2140,102 +2140,102 @@ You can see the Minecart (empty) and Rubble here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1114"></child>
+        <children><child nodeId="node-1497"></child>
         </children>
     </item>
-    <item nodeId="node-1114">
+    <item nodeId="node-1497">
         <command xml:space="preserve">mine sulfur</command>
         <result xml:space="preserve">You chip away at the sulfur with the pickaxe and obtain a few chunks of it (now called S).
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1115"></child>
+        <children><child nodeId="node-1498"></child>
         </children>
     </item>
-    <item nodeId="node-1115">
+    <item nodeId="node-1498">
         <command xml:space="preserve">mine potassium</command>
         <result xml:space="preserve">You chip away at the Potassium Nitrate with the pickaxe and obtain a few chunks of it (now called KNO3).
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1116"></child>
+        <children><child nodeId="node-1499"></child>
         </children>
     </item>
-    <item nodeId="node-1116">
+    <item nodeId="node-1499">
         <command xml:space="preserve">mine coal</command>
         <result xml:space="preserve">You chip away at the Charcoal with the pickaxe and obtain a few chunks of it (now called C).
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1117"></child>
+        <children><child nodeId="node-1500"></child>
         </children>
     </item>
-    <item nodeId="node-1117">
+    <item nodeId="node-1500">
         <command xml:space="preserve">combine coal with sulur</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1118"></child>
+        <children><child nodeId="node-1501"></child>
         </children>
     </item>
-    <item nodeId="node-1118">
+    <item nodeId="node-1501">
         <command xml:space="preserve">combine coal with sulfur</command>
         <result xml:space="preserve">(first taking Coal wall)
 That's hardly portable.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1119"></child>
+        <children><child nodeId="node-1502"></child>
         </children>
     </item>
-    <item nodeId="node-1119">
+    <item nodeId="node-1502">
         <command xml:space="preserve">combine S with C</command>
         <result xml:space="preserve">(S with C)
 You Combine the two rocks to create an Accelerant!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1120"></child>
+        <children><child nodeId="node-1503"></child>
         </children>
     </item>
-    <item nodeId="node-1120">
+    <item nodeId="node-1503">
         <command xml:space="preserve">Combine accelerant with KNO3</command>
         <result xml:space="preserve">You Combine the Accelerant and Oxidizer (KNO3) to creat Gunpowder!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1121"></child>
+        <children><child nodeId="node-1504"></child>
         </children>
     </item>
-    <item nodeId="node-1121">
+    <item nodeId="node-1504">
         <command xml:space="preserve">x rubble</command>
         <result xml:space="preserve">A large mound of rocks completely blocking the exit, maybe you could blow a hole in the rocks.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1122"></child>
+        <children><child nodeId="node-1505"></child>
         </children>
     </item>
-    <item nodeId="node-1122">
+    <item nodeId="node-1505">
         <command xml:space="preserve">x gunpowder</command>
         <result xml:space="preserve">A great tool for blowing things up
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1123"></child>
+        <children><child nodeId="node-1506"></child>
         </children>
     </item>
-    <item nodeId="node-1123">
+    <item nodeId="node-1506">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">There is a pitch black empty cavern between the Lower and Main Shaft created by the earthquake, if you were to walk it would be certain death.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1124"></child>
+        <children><child nodeId="node-1507"></child>
         </children>
     </item>
-    <item nodeId="node-1124">
+    <item nodeId="node-1507">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Locker Room
@@ -2243,28 +2243,28 @@ The old room where the miners would store their belongings. lockers line the wal
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1125"></child>
+        <children><child nodeId="node-1508"></child>
         </children>
     </item>
-    <item nodeId="node-1125">
+    <item nodeId="node-1508">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1126"></child>
+        <children><child nodeId="node-1509"></child>
         </children>
     </item>
-    <item nodeId="node-1126">
+    <item nodeId="node-1509">
         <command xml:space="preserve">x poster</command>
         <result xml:space="preserve">How to Make Gunpowder: Combine Sulfur with Coal to create an Accelerant. Then combine  with Potassium Nitrate to create gunpowder. Great for place(ing) on rocks to blow them up!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1127"></child>
+        <children><child nodeId="node-1510"></child>
         </children>
     </item>
-    <item nodeId="node-1127">
+    <item nodeId="node-1510">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">The winch slowly pulled you all the way to the main shaft, you should get out of the Mine cart and look for a way out.
 
@@ -2275,19 +2275,19 @@ You can see the Minecart (empty) and Rubble here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1128"></child>
+        <children><child nodeId="node-1511"></child>
         </children>
     </item>
-    <item nodeId="node-1128">
+    <item nodeId="node-1511">
         <command xml:space="preserve">place gunpowder on rubble</command>
         <result xml:space="preserve">You place the Gunpowder on the rubble and light then run around the corner. A few seconds later you hear a loud BOOM and the pathway to outside has been cleared.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1129"></child>
+        <children><child nodeId="node-1512"></child>
         </children>
     </item>
-    <item nodeId="node-1129">
+    <item nodeId="node-1512">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Earth is a room
@@ -2298,63 +2298,63 @@ You can see Rubble here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1184">
+    <item nodeId="node-1513">
         <command xml:space="preserve">start winch</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1053">
+    <item nodeId="node-1514">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Lower Shaft
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1054"></child>
+        <children><child nodeId="node-1515"></child>
         </children>
     </item>
-    <item nodeId="node-1054">
+    <item nodeId="node-1515">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Main Shaft
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1055"></child>
+        <children><child nodeId="node-1516"></child>
         </children>
     </item>
-    <item nodeId="node-1055">
+    <item nodeId="node-1516">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Locker Room
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1056"></child>
+        <children><child nodeId="node-1517"></child>
         </children>
     </item>
-    <item nodeId="node-1056">
+    <item nodeId="node-1517">
         <command xml:space="preserve">ee</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1057"></child>
+        <children><child nodeId="node-1518"></child>
         </children>
     </item>
-    <item nodeId="node-1057">
+    <item nodeId="node-1518">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Main Shaft
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1058"></child>
+        <children><child nodeId="node-1519"></child>
         </children>
     </item>
-    <item nodeId="node-1058">
+    <item nodeId="node-1519">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Lower Shaft

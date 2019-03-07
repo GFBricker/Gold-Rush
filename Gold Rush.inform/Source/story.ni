@@ -1,13 +1,13 @@
 "Gold Rush" by gbricker19
 
 When play begins:
-	say "You are exploring an abandoned mine in search of lost treasures, when you here a low rumbling sound then everything around you starts to shake. Rocks fall from the ceiling and many of the tunnels aoround you start to collapse. You should probably try to get out of here"
+	say "You are exploring an abandoned mine in search of lost treasures, when you here a low rumbling sound then everything around you starts to shake. Rocks fall from the ceiling and many of the tunnels aoround you start to collapse. You should probably try to get out of here. [line break]"
 
 [Rooms]
 
 Lower Shaft is a room. it is east of Main Shaft. The description of Lower Shaft is "The lower part of the mine where most of the valuble ores use to be. Mostly barren now with just a minecart attached to a winch and a gas can sitting next to it. The Main Shaft is to the west.".
 
-Main Shaft is a room has door. The description of Main Shaft is "The main part of the shaft used for mining more common ores. To the east if the minecart rail, to the west is the old lockerooms, and to the south was where the exit used to be, but now it is blocked by a mound of rubble. Also in the room are three different sections of wall labeled Sulfur, Coal, and Potassium Nitrate.".
+Main Shaft is a room. The description of Main Shaft is "The main part of the shaft used for mining more common ores. To the east if the minecart rail, to the west is the old lockerooms, and to the south was where the exit used to be, but now it is blocked by a mound of rubble. Also in the room are three different sections of wall labeled Sulfur, Coal, and Potassium Nitrate.".
 
 Locker Room is west of Main Shaft. The description of Locker Room is "The old room where the miners would store their belongings. lockers line the wall and a poster is hung on the wall. Also in the middle of room is a table with a mortar and pestle on it."
 
@@ -216,7 +216,7 @@ instead of combining S with KNO3:
 	say "nothing happens";
 	stop the action.
 
-Rubble is south of Main Shaft and north of Earth. Rubble is a closed door. It is not described. Rubble is Lockable and locked. Rubble is openable. The description of Rubble is "A large mound of rocks completely blocking the exit, maybe you could blow a hole in the rocks."
+Rubble is south of Main Shaft and north of Earth. Rubble is a closed door. Rubble is Lockable and locked. Rubble is openable. The description of Rubble is "A large mound of rocks completely blocking the exit, maybe you could blow a hole in the rocks."
 
 [because rubble is a door need to make fail safes]
 instead of opening Rubble:
@@ -252,6 +252,7 @@ poster board is scenery in locker room. the description is "How to Make Gunpowde
 [because if this was allowed it would say 'first opening rubble']
 Instead of going to Earth from Main Shaft:
 	if rubble is open:
+		say "Rubble is open";
 		continue the action;
 	if rubble is closed:
 		say "you can't find your way throught the rubble";
